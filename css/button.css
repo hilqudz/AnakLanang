@@ -1,0 +1,83 @@
+.btn {
+    min-width: 114px;
+    height: 56px;
+    padding: 0 24px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--color-white) !important;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.button.blue {
+    background: #3d8bff;
+}
+
+.button.blue:hover {
+    background: #0a6cff;
+}
+
+.button.green {
+    background: #3dbaa2;
+}
+
+.button.green:hover {
+    background: #329a86;
+}
+
+.button.red {
+    background: #ff7a68;
+}
+
+.button.red:hover {
+    background: #ff5943;
+}
+
+.btn-primary {
+    background-color: #A25797;
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-darker);
+}
+
+.btn-secondary {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-center {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.btn-right {
+    margin-top: 32px;
+    text-align: right;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* .add-btn {
+    position: relative;
+} */
